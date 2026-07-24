@@ -38,7 +38,7 @@ from dotenv import load_dotenv
 load_dotenv()  
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-log = logging.getLogger("add-bot")
+log = logging.getLogger("add-bot")  
 
 # ---------- CONFIG (loaded from environment variables, see .env.example) ----------
 API_ID = int(os.environ["API_ID"])
